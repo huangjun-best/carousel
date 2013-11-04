@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=no;"/>
+<title>个人信息</title>
+<link rel="stylesheet" type="text/css" href="../yun_files/css/base.css">
+<link rel="stylesheet" type="text/css" href="../yun_files/css/person_info.css">
+<script src="../yun_files/js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+<header id="header">
+	<nav class="nav">
+    	<ul class="nav_item">
+        	<li><a href="index.html">公司信息</a></li>
+            <li class="curr"><a href="person_info.html">个人信息</a></li>
+            <li><a href="qiye_cp.html">企业产品</a></li>
+            <li><a href="qiye_app.html">企业APP</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="qyapp_content">
+	<div class="qyapp_cont">
+    	<div class="p_info_cont">
+            <div class="vcf">
+            	<div class="vcf_down">
+                	<a href="#" class="vcf_down_pic"><img src="../yun_files/images/vcf_down.png"/></a>
+                </div>
+            	<div class="vcf_toux">
+                    <div class="toux_bg">
+                        <img class="vc_tx_pic" src="../yun_files/images/vc_tx_pic.png" />
+                    </div>
+                </div>
+                <p class="vcf_tt"><span class="name">李铮</span><span class="zhiwei">副总经理</span></p>
+				<div class="vcf_detail">
+                    	<img src="../yun_files/images/erweima.png" />
+                    <div class="vcf_text">
+                        <p>北京信诺天下科技有限</p>
+                        <p>Beijing Sinoglobal Tec Co.,Ltd.</p>
+                        <p>公司北京市丰台区开阳路1号瀚海花园大厦2层</p>
+                        <p>010-63701440-613</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+	
+    <div class="info_touch">
+            	<ul class="touch_item clearfix">
+                	<li><a href="#">
+                    	<img src="../yun_files/images/info_phone.png" />
+                        <p>18610568956</p>
+                    </a></li>
+                    <li><a href="#">
+                    	<img src="../yun_files/images/info_email.png" />
+                        <p>lizheng@sinoglobal.com.cn</p>
+                    </a></li>
+                    <li><a href="#">
+                    	<img src="../yun_files/images/info_xinxi.png" />
+                        <p>个人社交网址</p>
+                    </a></li>
+                </ul>
+            </div> 
+    </div>
+    <div class="info_select" style="display:none">
+        <div class="info_all info_phone" style="display:none">
+        	<div class="info_tt">请选择电话<span class="info_close"></span></div>
+            <div class="info_detail">
+            	<a class="info_curr" href="#">010-63701440-612</a>
+                <a href="#">010-63701440-612</a>
+                <a href="#">18610928378</a>
+                <a href="#">010-63701440-612</a>
+            </div>
+        </div>
+        <div class="info_all" style="display:none"></div>
+        <div class="info_all" style="display:none">
+        	<div class="info_tt">个人社交网址<span class="info_close"></span></div>
+            <div class="info_detail">
+            	<a class="info_curr" href="#"><span class="info_p info_p1"></span>新浪微博</a>
+                <a href="#"><span class="info_p info_p2"></span>个人主页</a>
+                <a href="#"><span class="info_p info_p3"></span>腾讯微博</a>
+                <a href="#"><span class="info_p info_p4"></span>QQ账号</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../yun_files/js/yunmp.js"></script>
+<script>
+	$('.touch_item>li').click(function(){
+		$('.info_select').show();
+		if($(this).index() ==1){
+			$('.info_select').hide();
+		}
+		$('.info_all').eq($(this).index()).show().siblings().hide();	
+	})
+	$('.info_close').click(function(){
+		$('.info_select').hide();
+		$('.info_all').hide();
+	})
+</script>
+</html>
+

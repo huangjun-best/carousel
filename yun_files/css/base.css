@@ -1,0 +1,19 @@
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{font-size:14px;min-width:320px;background:#eee; font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif;}
+img{ border:none; max-width:100%;}
+h1{font-size:22px; font-weight:bolder; letter-spacing:1px;}
+h2{font-size:18px;}
+h3{font-size:16px;}
+a{ text-decoration:none;}
+ul,ol,ul li,ol li{ list-style:none;}
+p{line-height:20px; word-break:break-all;}
+.clear{ clear:both;}
+.clearfix:after{ display:block; clear:both; content:"."; visibility:hidden; height:0px; font-size:0;}
+
+/*导航*/
+.nav ul{ height:40px; line-height:40px; background:#4a4a4a; border-top:1px solid #3b3b3b;}
+.nav ul li{ width:25%; float:left; text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:-o-border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.nav ul li a{color:#9a9a9a; height:40px; line-height:40px; display:block; width:100%;}
+.nav ul .curr{height:50px;background:url(../images/nav_hover_bg.png) no-repeat center bottom; background-size:auto 10px}
+.nav ul .curr a{height:40px; color:#FFF; height:40px; box-shadow:1px 2px 3px #292b2a inset; background:#333634;}
