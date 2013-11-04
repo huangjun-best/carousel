@@ -1,0 +1,36 @@
+/* commen */
+#content{padding-top:10px;}
+
+/*公司信息*/
+.com_msg{}
+.com_msg h1{ text-align:center; line-height:30px; color:#FFF;}
+.com_msg p{padding:5px 10px 10px; color:#fff;}
+.com_msg ul{ background:#4a4a4a; padding:10px 10px;}
+.com_msg ul li{line-height:28px; background:url(../images/list_style1_bg.png) no-repeat left center; background-size:18px 18px; text-indent:1.8em; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; color:#FFF;}
+
+#footer{background:#2ba3d4;}
+footer ul{padding:15px 25px;line-height:40px; height:40px}
+footer ul li{width:50%; float:left; text-align:center;}
+footer ul li a{display:block; text-indent:9999px; white-space:nowrap; overflow:hidden;}
+footer ul li.sina_sh { background:url(../images/sina_share.png) no-repeat center; background-size:auto 40px;}
+footer ul li.qq_sh{ background:url(../images/qq_share.png) no-repeat center; background-size:auto 40px;}
+
+/*企业产品*/
+.qycp{ padding:10px 5px; background:#eaebeb;}
+.qycp ul li{float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:-o-border-box;-webkit-box-sizing:border-box;box-sizing:border-box; text-align:center; background:url(../images/cp_log_bg.png) center bottom no-repeat; background-size:95% 10px;}
+.qycp ul li a{display:block; margin:5px 5px; background:#3dc0f1; padding:10px 10px;font-weight:bold; line-height:24px;}
+.qycp ul li a:active{background:#2ba3d4;}
+/*.qycp ul li a:visited{background:#2ba3d4;}*/
+.qycp ul li a img{width:70px; height:70px;}
+.qycp li a span{display:block; color:#fff;white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.list_sty1 li:first-child{width:66.66%; }
+.list_sty1 li:last-child{width:33.33%;}
+.list_sty2 li{width:33.33%;}
+.list_sty3 li{width:50%;}
+.list_sty4 li:first-child{width:33.33%;}
+.list_sty4 li:last-child{width:66.66%; }
+
+/*企业产品详情*/
+.qycp_show{background:#eaebeb; padding:10px;}
+.qycp_show h1{ text-align:center; line-height:40px;}
+.qycp_show p{ color:#7b7b7b; font-size:16px; line-height:24px;}

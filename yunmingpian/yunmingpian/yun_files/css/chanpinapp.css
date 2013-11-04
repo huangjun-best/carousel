@@ -1,0 +1,26 @@
+﻿/*企业APP*/
+.qyapp_cont{ margin:10px; background:#eaebeb;}
+.qyapp_cont ul li{ float:left; width:33.3%;text-align:center; margin:10px 0; }
+.qyapp_cont ul li a{ color:#000;}
+.qyapp_cont ul li a img{ height:80px; width:80px; border-radius:10px;}
+.qyapp_cont ul li a span{ display:block; font-size:14px;white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+
+/*APP详情*/
+.app_detail{ padding:10px; background:#eaebeb; min-height:480px;}
+.app_de_tt{ margin:10px 0; position:relative; margin-bottom:20px;}
+.app_de_tt img{ height:80px; width:80px; background-size:100% 100%; box-shadow:5px 5px 3px rgba(0,0,0,0.44); border-radius:10px;}
+.app_de_tt .app_xinxi{ position:absolute; left:100px; top:0; height:100px; overflow:hidden;}
+.app_de_tt .app_xinxi h3{ margin:5px 0;}
+.app_de_tt .app_xinxi p{ color:#999;}
+.app_de_tt a{ position:absolute; right:0; top:50%; display:inline-block; background:url(../images/app_but.png) no-repeat; background-size:100% 100%; width:80px; height:35px; line-height:32px; font-size:16px; text-align:center; margin-top:-20px; color:#FFF;}
+.app_cont{ padding:10px 0;}
+.app_cont h4{ font-size:15px;}
+.app_cont p{ color:#999;}
+
+.app_down_sec ul li{ float:left; width:33.3%;  }
+.app_down_sec ul li a{ margin:0 auto; display:block; width:85%;background:#3dc0f1; border-radius:5px; height:35px; text-align:center; line-height:35px; color:#fff; font-size:14px;}
+.app_down_sec ul li a:hover{ background:#2ba3d4;}
+.app_down_sec ul li span{ display:inline-block; width:15px; height:18px; vertical-align:middle; margin-right:3px;}
+.app_pic_and{ background:url(../images/Android.png) no-repeat; background-size:100% 100%;}
+.app_pic_iph{ background:url(../images/iphone.png) no-repeat;background-size:100% 100%;}
+.app_pic_ipad{ background:url(../images/iPad.png) no-repeat;background-size:100% 100%;}
